@@ -1,0 +1,508 @@
+Attempt 44 | relaxed: PRIMER_INTERNAL_TM_BLOCK | level: 5 | pairs: 5000
+INDEX 0
+LEFT:
+  PENALTY      : 0.14916717033190707
+  SEQUENCE     : CTCTTTGATCTTCCACAAGGGG
+  COORDS       : [97, 22]
+  TM           : 58.64916717033191
+  BOUND        : 28.92486612479525
+  GC_PERCENT   : 50.0
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 37.224672976485465
+  HAIRPIN_STUCT: 37.224672976485465
+  END_STABILITY: 4.79
+
+RIGHT:
+  PENALTY      : 0.21451575783447652
+  SEQUENCE     : AGTCAATCCACTCAATGCATCC
+  COORDS       : [271, 22]
+  TM           : 58.71451575783448
+  BOUND        : 29.444918933724022
+  GC_PERCENT   : 45.45454545454545
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 0.0
+  END_STABILITY: 3.51
+
+INTERNAL:
+  PENALTY       : 8.70461026681869
+  SEQUENCE      : GCCTTGGATAGGGTAACAGCGGCGG
+  COORDS        : [165, 25]
+  TM            : 63.29538973318131
+  BOUND         : 73.76353459114725
+  GC_PERCENT    : 64.0
+  SELF_ANY_TH   : 7.734280912202962
+  SELF_ANY_STUCT: SEQ	GCCTTGGATAGGGTAACAG  G  G------------------
+                  SEQ	                   CG CG
+                  STR	                   GC GC
+                  STR	                  G  G  GACAATGGGATAGGTTCCG
+  SELF_END_TH   : 0.0
+  HAIRPIN_TH    : 41.28726727550162
+  HAIRPIN_STUCT : 41.28726727550162
+
+PAIR:
+  PENALTY     : 0.3636829281663836
+  COMPL_ANY_TH: 0.0
+  COMPL_END_TH: 0.0
+  PRODUCT_SIZE: 175
+  PRODUCT_TM  : 84.24231595233852
+
+SEQUENCE VIEW:
+   1  GGTCAACTCC ATGATTAGCA TGGAGCTGTA GGAGTCTAAA TTGGGGACAC
+  51  AGATGTTTGG AACGTCACCT TGCAGTGTTA ACTTGGCTTT CATGAA<span style="background-color:#22c55e;color:#000;">TCTC</span>
+ 101  <span style="background-color:#22c55e;color:#000;">TTTGATCTTC</span> <span style="background-color:#22c55e;color:#000;">CACAAGGG</span>GT AGGCTACGGG TGAAACCTCT TAGGCTAATA
+ 151  CTTCTATGAA GAGA<span style="background-color:#a855f7;color:#fff;">TGCCTT</span> <span style="background-color:#a855f7;color:#fff;">GGATAGGGTA</span> <span style="background-color:#a855f7;color:#fff;">ACAGCGGCG</span>G ATATTGGTGA
+ 201  GTTGTTAAGA CAAAAACCAT TCAACGCCGG AGGACTGACT CTCATCCAG<span style="background-color:#2563eb;color:#fff;">T</span>
+ 251  <span style="background-color:#2563eb;color:#fff;">GGATGCATTG</span> <span style="background-color:#2563eb;color:#fff;">AGTGGATTGA</span> <span style="background-color:#2563eb;color:#fff;">C</span>TGTCAGGGC TGTCTTTAGG CTTAATTCCA
+ 301  GACCTCTCTG TGCTTAGGGC AAACATCA
+
+INDEX 1
+LEFT:
+  PENALTY      : 0.04657619090613707
+  SEQUENCE     : AAGACAAAAACCATTCAACGCC
+  COORDS       : [206, 22]
+  TM           : 58.54657619090614
+  BOUND        : 27.793788221115058
+  GC_PERCENT   : 40.90909090909091
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 0.0
+  END_STABILITY: 5.68
+
+RIGHT:
+  PENALTY      : 0.39104889857469516
+  SEQUENCE     : ATTAAGCCTAAAGACAGCCCTG
+  COORDS       : [295, 22]
+  TM           : 58.108951101425305
+  BOUND        : 25.019418576752102
+  GC_PERCENT   : 45.45454545454545
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 0.0
+  END_STABILITY: 4.45
+
+INTERNAL:
+  PENALTY       : 13.358502031764317
+  SEQUENCE      : GGAGGACTGACTCTCATCCAGTGGATGC
+  COORDS        : [228, 28]
+  TM            : 61.64149796823568
+  BOUND         : 57.87376532534393
+  GC_PERCENT    : 57.142857142857146
+  SELF_ANY_TH   : 32.75058463219062
+  SELF_ANY_STUCT: SEQ	GGAGGACTGACTCT      G      C-------------
+                  SEQ	              CATCCA TGGATG
+                  STR	              GTAGGT ACCTAC
+                  STR	             C      G      TCTCAGTCAGGAGG
+  SELF_END_TH   : 21.513749645826294
+  SELF_END_STUCT: SEQ	GGAGGACTGACTCT      G      ----- --------
+                  SEQ	              CATCCA TGGATG     C
+                  STR	              GTAGGT ACCTAC     G
+                  STR	             C      G      TCTCA TCAGGAGG
+  HAIRPIN_TH    : 39.46632856365437
+  HAIRPIN_STUCT : 39.46632856365437
+
+PAIR:
+  PENALTY     : 0.43762508948083223
+  COMPL_ANY_TH: 0.0
+  COMPL_END_TH: 0.0
+  PRODUCT_SIZE: 90
+  PRODUCT_TM  : 80.92612547614804
+
+SEQUENCE VIEW:
+   1  GGTCAACTCC ATGATTAGCA TGGAGCTGTA GGAGTCTAAA TTGGGGACAC
+  51  AGATGTTTGG AACGTCACCT TGCAGTGTTA ACTTGGCTTT CATGAATCTC
+ 101  TTTGATCTTC CACAAGGGGT AGGCTACGGG TGAAACCTCT TAGGCTAATA
+ 151  CTTCTATGAA GAGATGCCTT GGATAGGGTA ACAGCGGCGG ATATTGGTGA
+ 201  GTTGT<span style="background-color:#22c55e;color:#000;">TAAGA</span> <span style="background-color:#22c55e;color:#000;">CAAAAACCAT</span> <span style="background-color:#22c55e;color:#000;">TCAACGC</span><span style="background-color:#a855f7;color:#fff;">CGG</span> <span style="background-color:#a855f7;color:#fff;">AGGACTGACT</span> <span style="background-color:#a855f7;color:#fff;">CTCATCCAGT</span>
+ 251  <span style="background-color:#a855f7;color:#fff;">GGATG</span>CATTG AGTGGATTGA CTG<span style="background-color:#2563eb;color:#fff;">TCAGGGC</span> <span style="background-color:#2563eb;color:#fff;">TGTCTTTAGG</span> <span style="background-color:#2563eb;color:#fff;">CTTAA</span>TTCCA
+ 301  GACCTCTCTG TGCTTAGGGC AAACATCA
+
+INDEX 2
+LEFT:
+  PENALTY      : 0.3099050563108676
+  SEQUENCE     : GCTGTAGGAGTCTAAATTGGGG
+  COORDS       : [24, 22]
+  TM           : 58.19009494368913
+  BOUND        : 25.448908310800466
+  GC_PERCENT   : 50.0
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 0.0
+  END_STABILITY: 4.96
+
+RIGHT:
+  PENALTY      : 0.14916717033190707
+  SEQUENCE     : CCCCTTGTGGAAGATCAAAGAG
+  COORDS       : [118, 22]
+  TM           : 58.64916717033191
+  BOUND        : 28.92486612479525
+  GC_PERCENT   : 50.0
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 35.39418362727065
+  HAIRPIN_STUCT: 35.39418362727065
+  END_STABILITY: 2.85
+
+INTERNAL:
+  PENALTY       : 12.880629560075988
+  SEQUENCE      : ACGTCACCTTGCAGTGTTAACTTGGC
+  COORDS        : [61, 26]
+  TM            : 60.11937043992401
+  BOUND         : 39.84073197426138
+  GC_PERCENT    : 50.0
+  SELF_ANY_TH   : 4.377305397934265
+  SELF_ANY_STUCT: SEQ	ACGTCACCTTGCAGT      TTGGC----------
+                  SEQ	               GTTAAC
+                  STR	               CAATTG
+                  STR	          CGGTT      TGACGTTCCACTGCA
+  SELF_END_TH   : 4.711650576497902
+  SELF_END_STUCT: SEQ	ACGTCACCTTGCAGT      TTG  ----------
+                  SEQ	               GTTAAC   GC
+                  STR	               CAATTG   CG
+                  STR	          CGGTT      TGA  TTCCACTGCA
+  HAIRPIN_TH    : 35.79265776456799
+  HAIRPIN_STUCT : 35.79265776456799
+
+PAIR:
+  PENALTY     : 0.4590722266427747
+  COMPL_ANY_TH: 0.0
+  COMPL_END_TH: 0.0
+  PRODUCT_SIZE: 95
+  PRODUCT_TM  : 80.70156407263927
+
+SEQUENCE VIEW:
+   1  GGTCAACTCC ATGATTAGCA TGG<span style="background-color:#22c55e;color:#000;">AGCTGTA</span> <span style="background-color:#22c55e;color:#000;">GGAGTCTAAA</span> <span style="background-color:#22c55e;color:#000;">TTGGG</span>GACAC
+  51  AGATGTTTGG <span style="background-color:#a855f7;color:#fff;">AACGTCACCT</span> <span style="background-color:#a855f7;color:#fff;">TGCAGTGTTA</span> <span style="background-color:#a855f7;color:#fff;">ACTTGG</span>CTTT CATGAA<span style="background-color:#2563eb;color:#fff;">TCTC</span>
+ 101  <span style="background-color:#2563eb;color:#fff;">TTTGATCTTC</span> <span style="background-color:#2563eb;color:#fff;">CACAAGGG</span>GT AGGCTACGGG TGAAACCTCT TAGGCTAATA
+ 151  CTTCTATGAA GAGATGCCTT GGATAGGGTA ACAGCGGCGG ATATTGGTGA
+ 201  GTTGTTAAGA CAAAAACCAT TCAACGCCGG AGGACTGACT CTCATCCAGT
+ 251  GGATGCATTG AGTGGATTGA CTGTCAGGGC TGTCTTTAGG CTTAATTCCA
+ 301  GACCTCTCTG TGCTTAGGGC AAACATCA
+
+INDEX 3
+LEFT:
+  PENALTY       : 0.4525354359892617
+  SEQUENCE      : GTCACCTTGCAGTGTTAACTTG
+  COORDS        : [63, 22]
+  TM            : 58.04746456401074
+  BOUND         : 23.902151174297558
+  GC_PERCENT    : 45.45454545454545
+  SELF_ANY_TH   : 7.21887826467497
+  SELF_ANY_STUCT: SEQ	GTCACCTTGCAGT      TTG----------
+                  SEQ	             GTTAAC
+                  STR	             CAATTG
+                  STR	          GTT      TGACGTTCCACTG
+  SELF_END_TH   : 6.7276908956545185
+  SELF_END_STUCT: SEQ	GTCACCTTGCAGT      T-  ---------
+                  SEQ	             GTTAAC  TG
+                  STR	             CAATTG  AC
+                  STR	          GTT      TG  GTTCCACTG
+  HAIRPIN_TH    : 38.911828971217574
+  HAIRPIN_STUCT : 38.911828971217574
+  END_STABILITY : 3.16
+
+RIGHT:
+  PENALTY      : 0.03758015153090355
+  SEQUENCE     : TAACAACTCACCAATATCCGCC
+  COORDS       : [206, 22]
+  TM           : 58.4624198484691
+  BOUND        : 27.364900366308365
+  GC_PERCENT   : 45.45454545454545
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 0.0
+  END_STABILITY: 6.13
+
+INTERNAL:
+  PENALTY       : 9.31926890580661
+  SEQUENCE      : TCCACAAGGGGTAGGCTACGGGT
+  COORDS        : [108, 23]
+  TM            : 60.68073109419339
+  BOUND         : 46.82991894875347
+  GC_PERCENT    : 60.869565217391305
+  SELF_ANY_TH   : 14.393422727409074
+  SELF_ANY_STUCT: SEQ	TCCACAAGGG    G    GGGT------
+                  SEQ	          GTAG CTAC
+                  STR	          CATC GATG
+                  STR	      TGGG    G    GGGAACACCT
+  SELF_END_TH   : 4.767596923629014
+  SELF_END_STUCT: SEQ	TCCACAAGGG    G    GG---  ---
+                  SEQ	          GTAG CTAC     GT
+                  STR	          CATC GATG     CA
+                  STR	      TGGG    G    GGGAA  CCT
+  HAIRPIN_TH    : 34.85230513806613
+  HAIRPIN_STUCT : 34.85230513806613
+
+PAIR:
+  PENALTY     : 0.49011558752016526
+  COMPL_ANY_TH: 0.0
+  COMPL_END_TH: 0.0
+  PRODUCT_SIZE: 144
+  PRODUCT_TM  : 82.79973658725915
+
+SEQUENCE VIEW:
+   1  GGTCAACTCC ATGATTAGCA TGGAGCTGTA GGAGTCTAAA TTGGGGACAC
+  51  AGATGTTTGG AA<span style="background-color:#22c55e;color:#000;">CGTCACCT</span> <span style="background-color:#22c55e;color:#000;">TGCAGTGTTA</span> <span style="background-color:#22c55e;color:#000;">ACTT</span>GGCTTT CATGAATCTC
+ 101  TTTGATC<span style="background-color:#a855f7;color:#fff;">TTC</span> <span style="background-color:#a855f7;color:#fff;">CACAAGGGGT</span> <span style="background-color:#a855f7;color:#fff;">AGGCTACGGG</span> TGAAACCTCT TAGGCTAATA
+ 151  CTTCTATGAA GAGATGCCTT GGATAGGGTA ACAG<span style="background-color:#2563eb;color:#fff;">CGGCGG</span> <span style="background-color:#2563eb;color:#fff;">ATATTGGTGA</span>
+ 201  <span style="background-color:#2563eb;color:#fff;">GTTGTT</span>AAGA CAAAAACCAT TCAACGCCGG AGGACTGACT CTCATCCAGT
+ 251  GGATGCATTG AGTGGATTGA CTGTCAGGGC TGTCTTTAGG CTTAATTCCA
+ 301  GACCTCTCTG TGCTTAGGGC AAACATCA
+
+INDEX 4
+LEFT:
+  PENALTY      : 0.14916717033190707
+  SEQUENCE     : CTCTTTGATCTTCCACAAGGGG
+  COORDS       : [97, 22]
+  TM           : 58.64916717033191
+  BOUND        : 28.92486612479525
+  GC_PERCENT   : 50.0
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 37.224672976485465
+  HAIRPIN_STUCT: 37.224672976485465
+  END_STABILITY: 4.79
+
+RIGHT:
+  PENALTY      : 0.42337922997717214
+  SEQUENCE     : TGACAGTCAATCCACTCAATGC
+  COORDS       : [275, 22]
+  TM           : 58.92337922997717
+  BOUND        : 30.970086630142426
+  GC_PERCENT   : 45.45454545454545
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 0.0
+  END_STABILITY: 3.56
+
+INTERNAL:
+  PENALTY       : 8.70461026681869
+  SEQUENCE      : GCCTTGGATAGGGTAACAGCGGCGG
+  COORDS        : [165, 25]
+  TM            : 63.29538973318131
+  BOUND         : 73.76353459114725
+  GC_PERCENT    : 64.0
+  SELF_ANY_TH   : 7.734280912202962
+  SELF_ANY_STUCT: SEQ	GCCTTGGATAGGGTAACAG  G  G------------------
+                  SEQ	                   CG CG
+                  STR	                   GC GC
+                  STR	                  G  G  GACAATGGGATAGGTTCCG
+  SELF_END_TH   : 0.0
+  HAIRPIN_TH    : 41.28726727550162
+  HAIRPIN_STUCT : 41.28726727550162
+
+PAIR:
+  PENALTY     : 0.5725464003090792
+  COMPL_ANY_TH: 0.0
+  COMPL_END_TH: 0.0
+  PRODUCT_SIZE: 179
+  PRODUCT_TM  : 84.34772696590595
+
+SEQUENCE VIEW:
+   1  GGTCAACTCC ATGATTAGCA TGGAGCTGTA GGAGTCTAAA TTGGGGACAC
+  51  AGATGTTTGG AACGTCACCT TGCAGTGTTA ACTTGGCTTT CATGAA<span style="background-color:#22c55e;color:#000;">TCTC</span>
+ 101  <span style="background-color:#22c55e;color:#000;">TTTGATCTTC</span> <span style="background-color:#22c55e;color:#000;">CACAAGGG</span>GT AGGCTACGGG TGAAACCTCT TAGGCTAATA
+ 151  CTTCTATGAA GAGA<span style="background-color:#a855f7;color:#fff;">TGCCTT</span> <span style="background-color:#a855f7;color:#fff;">GGATAGGGTA</span> <span style="background-color:#a855f7;color:#fff;">ACAGCGGCG</span>G ATATTGGTGA
+ 201  GTTGTTAAGA CAAAAACCAT TCAACGCCGG AGGACTGACT CTCATCCAGT
+ 251  GGA<span style="background-color:#2563eb;color:#fff;">TGCATTG</span> <span style="background-color:#2563eb;color:#fff;">AGTGGATTGA</span> <span style="background-color:#2563eb;color:#fff;">CTGTC</span>AGGGC TGTCTTTAGG CTTAATTCCA
+ 301  GACCTCTCTG TGCTTAGGGC AAACATCA
+
+INDEX 5
+LEFT:
+  PENALTY       : 0.5404448257779109
+  SEQUENCE      : TTGCAGTGTTAACTTGGCTTTC
+  COORDS        : [69, 22]
+  TM            : 57.95955517422209
+  BOUND         : 23.510441591655713
+  GC_PERCENT    : 40.90909090909091
+  SELF_ANY_TH   : 7.21887826467497
+  SELF_ANY_STUCT: SEQ	  TTGCAGT      TTGGCTTTC
+                  SEQ	         GTTAAC
+                  STR	         CAATTG
+                  STR	CTTTCGGTT      TGACGTT--
+  SELF_END_TH   : 0.0
+  HAIRPIN_TH    : 32.98441660257379
+  HAIRPIN_STUCT : 32.98441660257379
+  END_STABILITY : 2.62
+
+RIGHT:
+  PENALTY      : 0.03758015153090355
+  SEQUENCE     : TAACAACTCACCAATATCCGCC
+  COORDS       : [206, 22]
+  TM           : 58.4624198484691
+  BOUND        : 27.364900366308365
+  GC_PERCENT   : 45.45454545454545
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 0.0
+  END_STABILITY: 6.13
+
+INTERNAL:
+  PENALTY       : 9.31926890580661
+  SEQUENCE      : TCCACAAGGGGTAGGCTACGGGT
+  COORDS        : [108, 23]
+  TM            : 60.68073109419339
+  BOUND         : 46.82991894875347
+  GC_PERCENT    : 60.869565217391305
+  SELF_ANY_TH   : 14.393422727409074
+  SELF_ANY_STUCT: SEQ	TCCACAAGGG    G    GGGT------
+                  SEQ	          GTAG CTAC
+                  STR	          CATC GATG
+                  STR	      TGGG    G    GGGAACACCT
+  SELF_END_TH   : 4.767596923629014
+  SELF_END_STUCT: SEQ	TCCACAAGGG    G    GG---  ---
+                  SEQ	          GTAG CTAC     GT
+                  STR	          CATC GATG     CA
+                  STR	      TGGG    G    GGGAA  CCT
+  HAIRPIN_TH    : 34.85230513806613
+  HAIRPIN_STUCT : 34.85230513806613
+
+PAIR:
+  PENALTY     : 0.5780249773088144
+  COMPL_ANY_TH: 0.0
+  COMPL_END_TH: 0.0
+  PRODUCT_SIZE: 138
+  PRODUCT_TM  : 82.23482112832197
+
+SEQUENCE VIEW:
+   1  GGTCAACTCC ATGATTAGCA TGGAGCTGTA GGAGTCTAAA TTGGGGACAC
+  51  AGATGTTTGG AACGTCAC<span style="background-color:#22c55e;color:#000;">CT</span> <span style="background-color:#22c55e;color:#000;">TGCAGTGTTA</span> <span style="background-color:#22c55e;color:#000;">ACTTGGCTTT</span> CATGAATCTC
+ 101  TTTGATC<span style="background-color:#a855f7;color:#fff;">TTC</span> <span style="background-color:#a855f7;color:#fff;">CACAAGGGGT</span> <span style="background-color:#a855f7;color:#fff;">AGGCTACGGG</span> TGAAACCTCT TAGGCTAATA
+ 151  CTTCTATGAA GAGATGCCTT GGATAGGGTA ACAG<span style="background-color:#2563eb;color:#fff;">CGGCGG</span> <span style="background-color:#2563eb;color:#fff;">ATATTGGTGA</span>
+ 201  <span style="background-color:#2563eb;color:#fff;">GTTGTT</span>AAGA CAAAAACCAT TCAACGCCGG AGGACTGACT CTCATCCAGT
+ 251  GGATGCATTG AGTGGATTGA CTGTCAGGGC TGTCTTTAGG CTTAATTCCA
+ 301  GACCTCTCTG TGCTTAGGGC AAACATCA
+
+INDEX 6
+LEFT:
+  PENALTY       : 0.5510209067502387
+  SEQUENCE      : TCACCTTGCAGTGTTAACTTGG
+  COORDS        : [64, 22]
+  TM            : 59.05102090675024
+  BOUND         : 32.06824043379835
+  GC_PERCENT    : 45.45454545454545
+  SELF_ANY_TH   : 7.21887826467497
+  SELF_ANY_STUCT: SEQ	TCACCTTGCAGT      TTGG--------
+                  SEQ	            GTTAAC
+                  STR	            CAATTG
+                  STR	        GGTT      TGACGTTCCACT
+  SELF_END_TH   : 1.6940637595831163
+  SELF_END_STUCT: SEQ	TCACCTTGCAGT      TT-----  ---
+                  SEQ	            GTTAAC       GG
+                  STR	            CAATTG       CC
+                  STR	        GGTT      TGACGTT  ACT
+  HAIRPIN_TH    : 38.911828971217574
+  HAIRPIN_STUCT : 38.911828971217574
+  END_STABILITY : 3.61
+
+RIGHT:
+  PENALTY      : 0.03758015153090355
+  SEQUENCE     : TAACAACTCACCAATATCCGCC
+  COORDS       : [206, 22]
+  TM           : 58.4624198484691
+  BOUND        : 27.364900366308365
+  GC_PERCENT   : 45.45454545454545
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 0.0
+  END_STABILITY: 6.13
+
+INTERNAL:
+  PENALTY       : 9.31926890580661
+  SEQUENCE      : TCCACAAGGGGTAGGCTACGGGT
+  COORDS        : [108, 23]
+  TM            : 60.68073109419339
+  BOUND         : 46.82991894875347
+  GC_PERCENT    : 60.869565217391305
+  SELF_ANY_TH   : 14.393422727409074
+  SELF_ANY_STUCT: SEQ	TCCACAAGGG    G    GGGT------
+                  SEQ	          GTAG CTAC
+                  STR	          CATC GATG
+                  STR	      TGGG    G    GGGAACACCT
+  SELF_END_TH   : 4.767596923629014
+  SELF_END_STUCT: SEQ	TCCACAAGGG    G    GG---  ---
+                  SEQ	          GTAG CTAC     GT
+                  STR	          CATC GATG     CA
+                  STR	      TGGG    G    GGGAA  CCT
+  HAIRPIN_TH    : 34.85230513806613
+  HAIRPIN_STUCT : 34.85230513806613
+
+PAIR:
+  PENALTY     : 0.5886010582811423
+  COMPL_ANY_TH: 0.0
+  COMPL_END_TH: 0.0
+  PRODUCT_SIZE: 143
+  PRODUCT_TM  : 82.61330496332752
+
+SEQUENCE VIEW:
+   1  GGTCAACTCC ATGATTAGCA TGGAGCTGTA GGAGTCTAAA TTGGGGACAC
+  51  AGATGTTTGG AAC<span style="background-color:#22c55e;color:#000;">GTCACCT</span> <span style="background-color:#22c55e;color:#000;">TGCAGTGTTA</span> <span style="background-color:#22c55e;color:#000;">ACTTG</span>GCTTT CATGAATCTC
+ 101  TTTGATC<span style="background-color:#a855f7;color:#fff;">TTC</span> <span style="background-color:#a855f7;color:#fff;">CACAAGGGGT</span> <span style="background-color:#a855f7;color:#fff;">AGGCTACGGG</span> TGAAACCTCT TAGGCTAATA
+ 151  CTTCTATGAA GAGATGCCTT GGATAGGGTA ACAG<span style="background-color:#2563eb;color:#fff;">CGGCGG</span> <span style="background-color:#2563eb;color:#fff;">ATATTGGTGA</span>
+ 201  <span style="background-color:#2563eb;color:#fff;">GTTGTT</span>AAGA CAAAAACCAT TCAACGCCGG AGGACTGACT CTCATCCAGT
+ 251  GGATGCATTG AGTGGATTGA CTGTCAGGGC TGTCTTTAGG CTTAATTCCA
+ 301  GACCTCTCTG TGCTTAGGGC AAACATCA
+
+INDEX 7
+LEFT:
+  PENALTY      : 0.14916717033190707
+  SEQUENCE     : CTCTTTGATCTTCCACAAGGGG
+  COORDS       : [97, 22]
+  TM           : 58.64916717033191
+  BOUND        : 28.92486612479525
+  GC_PERCENT   : 50.0
+  SELF_ANY_TH  : 0.0
+  SELF_END_TH  : 0.0
+  HAIRPIN_TH   : 37.224672976485465
+  HAIRPIN_STUCT: 37.224672976485465
+  END_STABILITY: 4.79
+
+RIGHT:
+  PENALTY       : 0.46970893047108575
+  SEQUENCE      : ATCCACTGGATGAGAGTCAGTC
+  COORDS        : [253, 22]
+  TM            : 58.969708930471086
+  BOUND         : 31.614226697403385
+  GC_PERCENT    : 50.0
+  SELF_ANY_TH   : 9.994167896746887
+  SELF_ANY_STUCT: SEQ	                C     GAGAGTCAGTC
+                  SEQ	           ATCCA TGGAT
+                  STR	           TAGGT ACCTA
+                  STR	CTGACTGAGAG     C     -----------
+  SELF_END_TH   : 0.0
+  HAIRPIN_TH    : 41.43267249593612
+  HAIRPIN_STUCT : 41.43267249593612
+  END_STABILITY : 3.51
+
+INTERNAL:
+  PENALTY       : 8.70461026681869
+  SEQUENCE      : GCCTTGGATAGGGTAACAGCGGCGG
+  COORDS        : [165, 25]
+  TM            : 63.29538973318131
+  BOUND         : 73.76353459114725
+  GC_PERCENT    : 64.0
+  SELF_ANY_TH   : 7.734280912202962
+  SELF_ANY_STUCT: SEQ	GCCTTGGATAGGGTAACAG  G  G------------------
+                  SEQ	                   CG CG
+                  STR	                   GC GC
+                  STR	                  G  G  GACAATGGGATAGGTTCCG
+  SELF_END_TH   : 0.0
+  HAIRPIN_TH    : 41.28726727550162
+  HAIRPIN_STUCT : 41.28726727550162
+
+PAIR:
+  PENALTY     : 0.6188761008029928
+  COMPL_ANY_TH: 0.0
+  COMPL_END_TH: 0.0
+  PRODUCT_SIZE: 157
+  PRODUCT_TM  : 83.96264352285718
+
+SEQUENCE VIEW:
+   1  GGTCAACTCC ATGATTAGCA TGGAGCTGTA GGAGTCTAAA TTGGGGACAC
+  51  AGATGTTTGG AACGTCACCT TGCAGTGTTA ACTTGGCTTT CATGAA<span style="background-color:#22c55e;color:#000;">TCTC</span>
+ 101  <span style="background-color:#22c55e;color:#000;">TTTGATCTTC</span> <span style="background-color:#22c55e;color:#000;">CACAAGGG</span>GT AGGCTACGGG TGAAACCTCT TAGGCTAATA
+ 151  CTTCTATGAA GAGA<span style="background-color:#a855f7;color:#fff;">TGCCTT</span> <span style="background-color:#a855f7;color:#fff;">GGATAGGGTA</span> <span style="background-color:#a855f7;color:#fff;">ACAGCGGCG</span>G ATATTGGTGA
+ 201  GTTGTTAAGA CAAAAACCAT TCAACGCCGG A<span style="background-color:#2563eb;color:#fff;">GGACTGACT</span> <span style="background-color:#2563eb;color:#fff;">CTCATCCAGT</span>
+ 251  <span style="background-color:#2563eb;color:#fff;">GGA</span>TGCATTG AGTGGATTGA CTGTCAGGGC TGTCTTTAGG CTTAATTCCA
+ 301  GACCTCTCTG TGCTTAGGGC AAACATCA
