@@ -1,0 +1,2 @@
+numpy
+primer3-py

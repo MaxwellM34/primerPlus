@@ -1,0 +1,7 @@
+﻿.env
+*.log
+*.pyc
+__pycache__/
+allTrios.json
+scoredTrios.json
+gblockResult.json
