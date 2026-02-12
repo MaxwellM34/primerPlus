@@ -7,6 +7,7 @@ selected until they exhaust their level list.
 from __future__ import annotations
 
 import random
+random.seed(42)
 from collections.abc import Callable, Iterator
 from typing import Any
 
